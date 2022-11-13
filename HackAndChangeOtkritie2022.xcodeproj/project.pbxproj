@@ -7,23 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930D841E9E6B5FEBCED9CEB3 /* Pods_HackAndChangeOtkritie2022.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B7CBC4F7AC5DFE2B7CDACB /* Pods_HackAndChangeOtkritie2022.framework */; };
+		A50933642920B6BB009BA380 /* PhoneVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50933632920B6BB009BA380 /* PhoneVerificationViewController.swift */; };
+		A50933692920C492009BA380 /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50933682920C492009BA380 /* SetPasswordViewController.swift */; };
+		A509336C2920C5B6009BA380 /* SetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509336B2920C5B6009BA380 /* SetPasswordViewModel.swift */; };
+		A509336E2920E9E4009BA380 /* MessageMockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509336D2920E9E4009BA380 /* MessageMockModel.swift */; };
+		A50933702920EA7C009BA380 /* MockSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509336F2920EA7B009BA380 /* MockSocket.swift */; };
+		A50933722920ECE1009BA380 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50933712920ECE1009BA380 /* SampleData.swift */; };
+		A50933742920ED4D009BA380 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50933732920ED4D009BA380 /* Lorem.swift */; };
+		A5636487291EC61A00C6E7F5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5636486291EC61A00C6E7F5 /* Colors.swift */; };
+		A563648B291F5BD100C6E7F5 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563648A291F5BD100C6E7F5 /* NetworkProvider.swift */; };
+		A5636495291F64E700C6E7F5 /* BaseNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5636494291F64E700C6E7F5 /* BaseNavigator.swift */; };
+		A5636498291F657F00C6E7F5 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5636497291F657F00C6E7F5 /* RegisterViewModel.swift */; };
+		A563649A291F658600C6E7F5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5636499291F658600C6E7F5 /* LoginViewModel.swift */; };
+		A563649C291F658E00C6E7F5 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563649B291F658E00C6E7F5 /* ChatViewModel.swift */; };
+		A563649F291F660E00C6E7F5 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563649E291F660E00C6E7F5 /* ViewModelProtocol.swift */; };
+		A56364A1291F691300C6E7F5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364A0291F691300C6E7F5 /* ChatViewController.swift */; };
+		A56364A3291F77F700C6E7F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364A2291F77F700C6E7F5 /* LoginViewController.swift */; };
+		A56364A8291F885000C6E7F5 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364A7291F885000C6E7F5 /* Application.swift */; };
+		A56364AD291FD14900C6E7F5 /* MessagesProdiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364AC291FD14900C6E7F5 /* MessagesProdiver.swift */; };
+		A56364AF291FD37F00C6E7F5 /* ChatHistoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364AE291FD37F00C6E7F5 /* ChatHistoryProvider.swift */; };
+		A56364B1291FD51500C6E7F5 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364B0291FD51500C6E7F5 /* AuthProvider.swift */; };
+		A56364B3291FE48E00C6E7F5 /* ChangeWidgetDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364B2291FE48E00C6E7F5 /* ChangeWidgetDataProvider.swift */; };
+		A56364CB291FFC3F00C6E7F5 /* OTKRValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364CA291FFC3F00C6E7F5 /* OTKRValidation.swift */; };
+		A56364CE292025CE00C6E7F5 /* AuthNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364CD292025CE00C6E7F5 /* AuthNavigator.swift */; };
+		A56364D1292027FB00C6E7F5 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56364D0292027FA00C6E7F5 /* Observable+Ext.swift */; };
 		A566C464291EAA07001798CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566C463291EAA07001798CB /* AppDelegate.swift */; };
 		A566C466291EAA07001798CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566C465291EAA07001798CB /* SceneDelegate.swift */; };
-		A566C468291EAA07001798CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566C467291EAA07001798CB /* ViewController.swift */; };
-		A566C46B291EAA07001798CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A566C469291EAA07001798CB /* Main.storyboard */; };
+		A566C468291EAA07001798CB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566C467291EAA07001798CB /* RegisterViewController.swift */; };
 		A566C46D291EAA08001798CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A566C46C291EAA08001798CB /* Assets.xcassets */; };
 		A566C470291EAA08001798CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A566C46E291EAA08001798CB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		478427E809AA58B64052C387 /* Pods-HackAndChangeOtkritie2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAndChangeOtkritie2022.debug.xcconfig"; path = "Target Support Files/Pods-HackAndChangeOtkritie2022/Pods-HackAndChangeOtkritie2022.debug.xcconfig"; sourceTree = "<group>"; };
+		96923ADA4ABF6663A177675A /* Pods-HackAndChangeOtkritie2022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAndChangeOtkritie2022.release.xcconfig"; path = "Target Support Files/Pods-HackAndChangeOtkritie2022/Pods-HackAndChangeOtkritie2022.release.xcconfig"; sourceTree = "<group>"; };
+		A50933632920B6BB009BA380 /* PhoneVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerificationViewController.swift; sourceTree = "<group>"; };
+		A50933682920C492009BA380 /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
+		A509336B2920C5B6009BA380 /* SetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewModel.swift; sourceTree = "<group>"; };
+		A509336D2920E9E4009BA380 /* MessageMockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMockModel.swift; sourceTree = "<group>"; };
+		A509336F2920EA7B009BA380 /* MockSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSocket.swift; sourceTree = "<group>"; };
+		A50933712920ECE1009BA380 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A50933732920ED4D009BA380 /* Lorem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
+		A5636486291EC61A00C6E7F5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A563648A291F5BD100C6E7F5 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		A5636494291F64E700C6E7F5 /* BaseNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseNavigator.swift; path = HackAndChangeOtkritie2022/UIKit/BaseNavigator.swift; sourceTree = SOURCE_ROOT; };
+		A5636497291F657F00C6E7F5 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		A5636499291F658600C6E7F5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A563649B291F658E00C6E7F5 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		A563649E291F660E00C6E7F5 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		A56364A0291F691300C6E7F5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A56364A2291F77F700C6E7F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A56364A7291F885000C6E7F5 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		A56364AC291FD14900C6E7F5 /* MessagesProdiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesProdiver.swift; sourceTree = "<group>"; };
+		A56364AE291FD37F00C6E7F5 /* ChatHistoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHistoryProvider.swift; sourceTree = "<group>"; };
+		A56364B0291FD51500C6E7F5 /* AuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		A56364B2291FE48E00C6E7F5 /* ChangeWidgetDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeWidgetDataProvider.swift; sourceTree = "<group>"; };
+		A56364CA291FFC3F00C6E7F5 /* OTKRValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTKRValidation.swift; sourceTree = "<group>"; };
+		A56364CD292025CE00C6E7F5 /* AuthNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigator.swift; sourceTree = "<group>"; };
+		A56364D0292027FA00C6E7F5 /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
 		A566C460291EAA07001798CB /* HackAndChangeOtkritie2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackAndChangeOtkritie2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A566C463291EAA07001798CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A566C465291EAA07001798CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A566C467291EAA07001798CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A566C46A291EAA07001798CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A566C467291EAA07001798CB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A566C46C291EAA08001798CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A566C46F291EAA08001798CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A566C471291EAA08001798CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B7CBC4F7AC5DFE2B7CDACB /* Pods_HackAndChangeOtkritie2022.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackAndChangeOtkritie2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,173 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930D841E9E6B5FEBCED9CEB3 /* Pods_HackAndChangeOtkritie2022.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B3C88732220D25A62DD340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7CBC4F7AC5DFE2B7CDACB /* Pods_HackAndChangeOtkritie2022.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50933672920B72B009BA380 /* PhoneVerificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				A50933632920B6BB009BA380 /* PhoneVerificationViewController.swift */,
+			);
+			path = PhoneVerificationVC;
+			sourceTree = "<group>";
+		};
+		A509336A2920C5A6009BA380 /* SetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				A50933682920C492009BA380 /* SetPasswordViewController.swift */,
+				A509336B2920C5B6009BA380 /* SetPasswordViewModel.swift */,
+			);
+			path = SetPassword;
+			sourceTree = "<group>";
+		};
+		A563648E291F5C3B00C6E7F5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A5636494291F64E700C6E7F5 /* BaseNavigator.swift */,
+				A56364CD292025CE00C6E7F5 /* AuthNavigator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A563648F291F5C4A00C6E7F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A56364A9291FAB9D00C6E7F5 /* RegisterVC */,
+				A56364AA291FABBA00C6E7F5 /* ChatVC */,
+				A56364AB291FABC800C6E7F5 /* LoginVC */,
+				A50933672920B72B009BA380 /* PhoneVerificationVC */,
+				A509336A2920C5A6009BA380 /* SetPassword */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5636490291F5C5700C6E7F5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A5636491291F5C6400C6E7F5 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				A5636486291EC61A00C6E7F5 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		A5636493291F5C7900C6E7F5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A56364CC292024F100C6E7F5 /* Provider */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A5636496291F657200C6E7F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A563649D291F65FD00C6E7F5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A563649E291F660E00C6E7F5 /* ViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A56364A6291F884300C6E7F5 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				A566C465291EAA07001798CB /* SceneDelegate.swift */,
+				A566C463291EAA07001798CB /* AppDelegate.swift */,
+				A56364A7291F885000C6E7F5 /* Application.swift */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		A56364A9291FAB9D00C6E7F5 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				A5636497291F657F00C6E7F5 /* RegisterViewModel.swift */,
+				A566C467291EAA07001798CB /* RegisterViewController.swift */,
+			);
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		A56364AA291FABBA00C6E7F5 /* ChatVC */ = {
+			isa = PBXGroup;
+			children = (
+				A56364A0291F691300C6E7F5 /* ChatViewController.swift */,
+				A563649B291F658E00C6E7F5 /* ChatViewModel.swift */,
+				A509336D2920E9E4009BA380 /* MessageMockModel.swift */,
+				A509336F2920EA7B009BA380 /* MockSocket.swift */,
+				A50933712920ECE1009BA380 /* SampleData.swift */,
+				A50933732920ED4D009BA380 /* Lorem.swift */,
+			);
+			path = ChatVC;
+			sourceTree = "<group>";
+		};
+		A56364AB291FABC800C6E7F5 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				A56364A2291F77F700C6E7F5 /* LoginViewController.swift */,
+				A5636499291F658600C6E7F5 /* LoginViewModel.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		A56364C9291FFC2300C6E7F5 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				A56364CA291FFC3F00C6E7F5 /* OTKRValidation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		A56364CC292024F100C6E7F5 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				A563648A291F5BD100C6E7F5 /* NetworkProvider.swift */,
+				A56364AC291FD14900C6E7F5 /* MessagesProdiver.swift */,
+				A56364AE291FD37F00C6E7F5 /* ChatHistoryProvider.swift */,
+				A56364B0291FD51500C6E7F5 /* AuthProvider.swift */,
+				A56364B2291FE48E00C6E7F5 /* ChangeWidgetDataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		A56364CF292027EB00C6E7F5 /* Observable+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				A56364D0292027FA00C6E7F5 /* Observable+Ext.swift */,
+			);
+			path = "Observable+Ext";
+			sourceTree = "<group>";
+		};
 		A566C457291EAA07001798CB = {
 			isa = PBXGroup;
 			children = (
 				A566C462291EAA07001798CB /* HackAndChangeOtkritie2022 */,
 				A566C461291EAA07001798CB /* Products */,
+				EDE8B7AB3AD52035E1551BD3 /* Pods */,
+				04B3C88732220D25A62DD340 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +262,30 @@
 		A566C462291EAA07001798CB /* HackAndChangeOtkritie2022 */ = {
 			isa = PBXGroup;
 			children = (
-				A566C463291EAA07001798CB /* AppDelegate.swift */,
-				A566C465291EAA07001798CB /* SceneDelegate.swift */,
-				A566C467291EAA07001798CB /* ViewController.swift */,
-				A566C469291EAA07001798CB /* Main.storyboard */,
+				A56364CF292027EB00C6E7F5 /* Observable+Ext */,
+				A56364C9291FFC2300C6E7F5 /* Validation */,
+				A56364A6291F884300C6E7F5 /* Architecture */,
+				A563649D291F65FD00C6E7F5 /* Protocols */,
+				A5636496291F657200C6E7F5 /* ViewModels */,
+				A5636493291F5C7900C6E7F5 /* Network */,
+				A563648F291F5C4A00C6E7F5 /* Controllers */,
+				A563648E291F5C3B00C6E7F5 /* Coordinator */,
+				A5636490291F5C5700C6E7F5 /* UIKit */,
+				A5636491291F5C6400C6E7F5 /* Colors */,
 				A566C46C291EAA08001798CB /* Assets.xcassets */,
 				A566C46E291EAA08001798CB /* LaunchScreen.storyboard */,
 				A566C471291EAA08001798CB /* Info.plist */,
 			);
 			path = HackAndChangeOtkritie2022;
+			sourceTree = "<group>";
+		};
+		EDE8B7AB3AD52035E1551BD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				478427E809AA58B64052C387 /* Pods-HackAndChangeOtkritie2022.debug.xcconfig */,
+				96923ADA4ABF6663A177675A /* Pods-HackAndChangeOtkritie2022.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A566C474291EAA08001798CB /* Build configuration list for PBXNativeTarget "HackAndChangeOtkritie2022" */;
 			buildPhases = (
+				1D3722FD952F2BB604BD27BA /* [CP] Check Pods Manifest.lock */,
 				A566C45C291EAA07001798CB /* Sources */,
 				A566C45D291EAA07001798CB /* Frameworks */,
 				A566C45E291EAA07001798CB /* Resources */,
+				8ED3FA53F7FD9DD2B4E91FDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +350,91 @@
 			files = (
 				A566C470291EAA08001798CB /* LaunchScreen.storyboard in Resources */,
 				A566C46D291EAA08001798CB /* Assets.xcassets in Resources */,
-				A566C46B291EAA07001798CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D3722FD952F2BB604BD27BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackAndChangeOtkritie2022-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED3FA53F7FD9DD2B4E91FDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackAndChangeOtkritie2022/Pods-HackAndChangeOtkritie2022-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackAndChangeOtkritie2022/Pods-HackAndChangeOtkritie2022-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackAndChangeOtkritie2022/Pods-HackAndChangeOtkritie2022-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A566C45C291EAA07001798CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A566C468291EAA07001798CB /* ViewController.swift in Sources */,
+				A56364A8291F885000C6E7F5 /* Application.swift in Sources */,
+				A509336E2920E9E4009BA380 /* MessageMockModel.swift in Sources */,
+				A56364AF291FD37F00C6E7F5 /* ChatHistoryProvider.swift in Sources */,
+				A566C468291EAA07001798CB /* RegisterViewController.swift in Sources */,
+				A50933692920C492009BA380 /* SetPasswordViewController.swift in Sources */,
+				A56364CE292025CE00C6E7F5 /* AuthNavigator.swift in Sources */,
+				A56364A3291F77F700C6E7F5 /* LoginViewController.swift in Sources */,
+				A50933742920ED4D009BA380 /* Lorem.swift in Sources */,
+				A50933722920ECE1009BA380 /* SampleData.swift in Sources */,
+				A5636495291F64E700C6E7F5 /* BaseNavigator.swift in Sources */,
+				A5636487291EC61A00C6E7F5 /* Colors.swift in Sources */,
+				A509336C2920C5B6009BA380 /* SetPasswordViewModel.swift in Sources */,
 				A566C464291EAA07001798CB /* AppDelegate.swift in Sources */,
 				A566C466291EAA07001798CB /* SceneDelegate.swift in Sources */,
+				A50933642920B6BB009BA380 /* PhoneVerificationViewController.swift in Sources */,
+				A5636498291F657F00C6E7F5 /* RegisterViewModel.swift in Sources */,
+				A50933702920EA7C009BA380 /* MockSocket.swift in Sources */,
+				A563649F291F660E00C6E7F5 /* ViewModelProtocol.swift in Sources */,
+				A56364A1291F691300C6E7F5 /* ChatViewController.swift in Sources */,
+				A56364B3291FE48E00C6E7F5 /* ChangeWidgetDataProvider.swift in Sources */,
+				A56364CB291FFC3F00C6E7F5 /* OTKRValidation.swift in Sources */,
+				A563649A291F658600C6E7F5 /* LoginViewModel.swift in Sources */,
+				A56364B1291FD51500C6E7F5 /* AuthProvider.swift in Sources */,
+				A563649C291F658E00C6E7F5 /* ChatViewModel.swift in Sources */,
+				A56364AD291FD14900C6E7F5 /* MessagesProdiver.swift in Sources */,
+				A56364D1292027FB00C6E7F5 /* Observable+Ext.swift in Sources */,
+				A563648B291F5BD100C6E7F5 /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A566C469291EAA07001798CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A566C46A291EAA07001798CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A566C46E291EAA08001798CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +562,7 @@
 		};
 		A566C475291EAA08001798CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478427E809AA58B64052C387 /* Pods-HackAndChangeOtkritie2022.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +573,6 @@
 				INFOPLIST_FILE = HackAndChangeOtkritie2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +590,7 @@
 		};
 		A566C476291EAA08001798CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96923ADA4ABF6663A177675A /* Pods-HackAndChangeOtkritie2022.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +601,6 @@
 				INFOPLIST_FILE = HackAndChangeOtkritie2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
