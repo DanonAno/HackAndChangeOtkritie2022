@@ -1,0 +1,62 @@
+PODS:
+  - AEOTPTextField (1.2.6)
+  - Alamofire (5.6.2)
+  - CryptoSHA (0.0.2)
+  - Differentiator (5.0.0)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - AEOTPTextField
+  - Alamofire
+  - CryptoSHA
+  - MessageKit
+  - RxCocoa (= 6.5.0)
+  - RxDataSources
+  - RxSwift (= 6.5.0)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - AEOTPTextField
+    - Alamofire
+    - CryptoSHA
+    - Differentiator
+    - InputBarAccessoryView
+    - MessageKit
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  AEOTPTextField: a275823fde05601c5da7f8fb66aaecb41289b370
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  CryptoSHA: d607313bc47b070539429c537d1161b441eacecf
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 2aaf77ded00a7b63fd708c801facba7d6919e130
+
+COCOAPODS: 1.11.3
