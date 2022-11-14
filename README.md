@@ -49,6 +49,7 @@ iOS приложение с функционалом чата
 * Swift
 * RxSwift
 * SnapKit
+* MessageKit
 
 
 
