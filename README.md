@@ -28,7 +28,7 @@
 <h3 align="center">Advisory Service</h3>
 
   <p align="center">
-    Репозиторий серверной части Advisory-сервиса для Банка Открытие
+    Репозиторий мобильной части Advisory-сервиса для Банка Открытие
     <br>
   </p>
 </div>
